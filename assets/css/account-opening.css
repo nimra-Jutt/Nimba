@@ -1,0 +1,138 @@
+.account-cards {
+  border: 1px solid #EEEEEE;
+  padding: 56px 46px;
+  margin-bottom: 43px;
+}
+.sub-content {
+  margin-bottom: 33px;
+}
+
+.sub-content .about-heading,
+.sub-content .about-sub-heading {
+  margin-bottom: 0;
+}
+
+.sub-content .about-para {
+  margin-bottom: 0;
+}
+
+.sub-content:last-child {
+  margin-bottom: 0;
+}
+
+.heading-with-step {
+  margin-bottom: 33px;
+}
+
+.account-para-wrapper {
+  padding: 13px 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.account-para-wrapper:last-child {
+  border: 0;
+}
+
+.account-cards:last-child {
+  margin-bottom: 0;
+}
+
+.card-count {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 54px;
+  color: #EEEEEE;
+  font-family: var(--font-secondary);
+  text-align: right;
+}
+
+.account-list {
+  padding-left: 20px;
+}
+
+.account-list .about-para:last-child {
+  margin-bottom: 0;
+}
+
+.account-list li {
+  position: relative;
+}
+
+.account-list li::marker {
+  color: #C87E5D;
+}
+
+.account-btn {
+  padding: 9px 20px;
+  border: 1px solid #D9D9D9;
+  text-decoration: none;
+}
+
+.account-btn:hover .account-link {
+  color: var(--white);
+}
+
+.account-link {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 34px;
+  color: var(--green);
+  font-family: var(--font-secondary);
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.account-btn:hover {
+  text-decoration: none;
+  background-color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.download-wrapper {
+  margin-bottom: 64px;
+}
+@media only screen and (max-width:1024px) {
+  
+}
+
+@media only screen and (max-width:768px) {
+
+  .account-cards {
+    border: 1px solid #EEEEEE;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  .heading-with-step {
+    margin-bottom: 24px;
+  }
+  .sub-content {
+    margin-bottom: 35px;
+  }
+  .sub-content .about-heading {
+    margin-bottom: 15px;
+  }
+  .account-para-wrapper {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  .card-count {
+    font-size: 45px;
+    margin-top: 18px;
+  }
+
+  .account-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+  }
+
+  .about-sub-heading {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .download-wrapper {
+    margin-bottom: 24px;
+  }
+}

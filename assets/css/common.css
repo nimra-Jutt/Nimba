@@ -1,0 +1,703 @@
+/* ---------- Font Family Start ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ---------- Font Family end ---------- */
+
+
+/* ---------- privacy-policy Start ---------- */
+.heading2 {
+    color: #173629;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 52px;
+    font-family: "Prata", serif;
+}
+
+.heading3 {
+    font-size: 28px;
+    font-family: "Prata", serif;
+    margin: 25px 0 10px;
+}
+
+.text-page .heading2 {
+    margin: 15px 0 10px 0;
+    line-height: 40px;
+}
+
+.bullet-list li {
+    color: #999999;
+}
+
+.text-page a {
+    color: green;
+}
+
+.text-page p {
+    color: #999999;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-family: "Jost", sans-serif;
+}
+
+/* ---------- privacy-policy End ---------- */
+
+/* ---------- Commonn Classes Start ---------- */
+.container {
+    max-width: 1290px;
+}
+
+.image {
+    height: auto;
+    width: 100%;
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.btn-green {
+    border: 1px solid var(--white);
+    color: var(--white);
+    transition: 0.3s ease-in-out;
+
+}
+
+.btn-green:hover {
+    border: 1px solid var(--wheat);
+    color: var(--green);
+    background-color: var(--wheat);
+}
+
+.btn-white {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.btn-white:hover {
+    /* border: 1px solid var(--green); */
+    color: var(--green);
+}
+
+.stndrd-btn {
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 15px 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: var(--font-secondary);
+}
+
+.outline-wheat-to-wheat {
+    border: 1px solid var(--wheat);
+    color: var(--wheat);
+    /* background-color: var(--wheat); */
+}
+
+.outline-wheat-to-wheat:hover {
+    background-color: var(--wheat);
+    color: var(--green);
+
+}
+
+.outline-green-to-wheat {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.outline-green-to-wheat:hover {
+    border: 1px solid var(--green);
+    color: var(--wheat);
+    background-color: var(--green);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.padding-top-0 {
+    padding-bottom: 0;
+}
+
+.mb-md-0 {
+    margin-bottom: 0;
+}
+
+.mb-11 {
+    margin-bottom: 11px;
+}
+
+.mb-14 {
+    margin-bottom: 14px;
+}
+
+.mb-18 {
+    margin-bottom: 18px;
+}
+
+.wheat {
+    color: var(--wheat);
+}
+
+.img-radius {
+    border-radius: 20px;
+}
+
+.flex-direction-lg {
+    flex-direction: column;
+}
+
+.bg-wheat {
+    background-color: var(--wheat);
+    padding: 63px 0;
+}
+
+.section-radius {
+    border-radius: 10px;
+}
+
+.margin-minus {
+    margin-top: -200px;
+
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* ---------- Commonn Classes end ---------- */
+
+/* ---------- Theme Colors Start ---------- */
+:root {
+    --black: #000000;
+    --wheat: #F1E8D4;
+    --green: #173629;
+    --white: #ffffff;
+    --gray: #999999;
+    --orange: #C87E5D;
+    --font-primary: "Prata", serif;
+    --font-secondary: 'jost';
+
+    /* font-family: "Prata", serif; */
+
+}
+
+/* ---------- Theme Colors End ---------- */
+
+/* ---------- navbar  start ---------- */
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/bars-solid.svg);
+}
+
+.navbar-brand {
+    margin-right: 3rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    padding-right: 0;
+}
+
+.nav-header {
+    background-color: #173629;
+    padding: 20px 33px;
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.nav-btn {
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.nav-btn:hover {
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    color: var(--white);
+}
+
+.nav-list {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    color: var(--white) !important;
+    padding-right: 40px !important;
+    letter-spacing: 1px;
+    font-family: var(--font-secondary);
+    transition: 0.3s ease-in-out;
+
+}
+
+.nav-list:hover {
+    color: var(--orange) !important;
+    text-decoration: none;
+}
+
+.nav-list:focus {
+    color: var(--orange);
+}
+
+.dropdown-text {
+    color: var(--black);
+    margin-bottom: 5px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.dropdown-text:hover {
+    color: var(--orange);
+    text-decoration: underline;
+    background-color: var(--white);
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    background-color: var(--white);
+    /* padding: 20px 30px; */
+}
+
+/* ---------- navbar  end ---------- */
+
+/* ---------- Footer  start ---------- */
+
+.footer {
+    padding: 131px 0 26px 0;
+}
+
+.footer-content {
+    margin-bottom: 65px;
+}
+
+.footer-heading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: var(--green);
+    font-family: var(--font-primary);
+
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--gray);
+    text-decoration: none;
+    font-family: var(--font-secondary);
+    transition: 0.3s ease-in-out;
+
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: var(--green);
+}
+
+.footer-nav {
+    border-top: 1px solid #F5F5F5;
+    padding-top: 31px;
+}
+
+.footer-nav-child {
+    color: var(--gray);
+}
+
+/* ---------- Footer  End ---------- */
+
+/* ---------- Top  Section Start---------- */
+.top-stnd-section {
+    padding: 65px 0;
+}
+
+.main-heading {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 101px;
+    color: var(--white);
+    font-family: var(--font-primary);
+}
+
+.main-para {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--white);
+    font-family: var(--font-secondary);
+}
+
+.discovery-heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: var(--wheat);
+    margin-bottom: 28px;
+    font-family: var(--font-primary);
+}
+
+.discovery-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--wheat);
+    margin-bottom: 40px;
+    font-family: var(--font-secondary);
+}
+
+/* ---------- Top  Section end---------- */
+
+/* ---------- About start---------- */
+.about-para-wrapper {
+    margin-bottom: 40px;
+}
+
+.about-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 54px;
+    color: var(--green);
+    margin-bottom: 10px;
+    font-family: var(--font-primary);
+}
+
+.about-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--gray);
+    margin-bottom: 20px;
+    font-family: var(--font-secondary);
+}
+
+.about-sub-heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: var(--green);
+    margin-bottom: 10px;
+    font-family: var(--font-primary);
+}
+
+.about-img-heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--green);
+    margin-top: 10px;
+    font-family: var(--font-primary);
+}
+
+/* .about-img-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height:30px;
+    color: var(--gray);
+    margin-top: 10px;
+} */
+/* ---------- About end---------- */
+/* ---------- detailed page start---------- */
+
+.gold-bar-wrapper {
+    margin-bottom: 72px;
+}
+
+.gold-bar-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--green);
+    margin-top: 34px;
+    margin-bottom: 9px;
+    font-family: var(--font-primary);
+
+}
+
+.gold-bar-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--gray);
+    font-family: var(--font-secondary);
+}
+
+/* ---------- detailed page end---------- */
+/* ---------- Text Section Start---------- */
+.text-section {
+    margin-bottom: 50px;
+}
+
+.text-section .text {
+    margin-bottom: 30px;
+}
+
+.text-section:last-child {
+    margin-bottom: 0;
+}
+
+.text-section .text:last-child {
+    margin-bottom: 0;
+}
+
+/* ---------- Text Section End---------- */
+/* ---------- service page start---------- */
+.content-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: var(--orange);
+    font-family: var(--font-secondary);
+}
+
+.content-sub-heading {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    color: var(--orange);
+    font-family: var(--font-secondary);
+}
+
+.sub-content {
+    margin-bottom: 30px;
+}
+
+.sub-content:last-child {
+    margin-bottom: 0;
+}
+
+.main-content {
+    margin-bottom: 40px;
+}
+
+/* ---------- service page end---------- */
+/* ---------- section bg-orange start ---------- */
+
+.silver-bar-wrapper {
+    margin-bottom: 60px;
+}
+
+.orng-img {
+    width: 75%;
+}
+
+/* ---------- section bg-orange end ---------- */
+
+.d-none-lg {
+    display: none;
+}
+
+@media only screen and (max-width:1300px) {
+    .nav-btn {
+        display: none;
+    }
+
+    .footer-link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .nav-header {
+        padding: 15px;
+    }
+
+    .nav-list {
+        padding-right: 25px !important;
+    }
+
+    .bg-light-md {
+        background-color: var(--white);
+    }
+
+    .d-none-md {
+        display: none;
+
+    }
+
+    .d-block-md {
+        display: block;
+    }
+
+    .footer-heading {
+        margin-top: 40px;
+        margin-bottom: 9px;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .navbar-nav {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    /* ---------- privacy-policy Start ---------- */
+    .heading2 {
+        font-size: 20px;
+    }
+
+    .heading3 {
+        font-size: 20px;
+        margin: 20px 0 10px;
+    }
+
+    .text-page p {
+        line-height: 24px;
+    }
+
+    /* ---------- privacy-policy End ---------- */
+    .text-center-sm {
+        text-align: center;
+    }
+
+
+    .footer-content {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        padding: 62px 0 26px 0;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .stndrd-btn {
+        line-height: 34px;
+    }
+
+    /* ---------- Top  Section start---------- */
+    .top-stnd-section {
+        padding: 45px 0;
+    }
+
+    .main-heading {
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 53px;
+    }
+
+    .main-para {
+        font-family: 'Jost';
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    /* ---------- Top  Section end---------- */
+    /* ----------discover gold Start---------- */
+
+    .discovery-heading {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .discovery-para {
+        margin-bottom: 54px;
+    }
+
+    /* ----------discover gold end---------- */
+    /* ---------- About start---------- */
+    /* .about-para-wrapper{
+    margin-bottom: 20px;
+} */
+    .about-para {
+        line-height: 24px;
+    }
+
+    .about-heading {
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .about-sub-heading {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    /* ---------- About end---------- */
+    .gold-bar-wrapper {
+        margin-bottom: 53px;
+    }
+
+    .gold-bar-heading {
+        margin-top: 25px;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .d-block-sm {
+        display: block;
+    }
+
+    .flex-direction {
+        flex-direction: column;
+    }
+
+    .text-center-mob {
+        text-align: center;
+    }
+
+    .section-padding {
+        padding: 50px 0;
+    }
+
+    .mb-sm-30 {
+        margin-bottom: 30px;
+    }
+
+    .mb-sm-16 {
+        margin-bottom: 16px;
+    }
+
+    .mb-sm-55 {
+        margin-bottom: 55px;
+    }
+
+    .mt-mob-0 {
+        margin-top: 0;
+    }
+
+    .bg-wheat {
+        padding: 60px 35px;
+    }
+
+    .mb-sm-9 {
+        margin-bottom: 9px;
+    }
+
+    .padding-bottom-0 {
+        padding-bottom: 0;
+    }
+}

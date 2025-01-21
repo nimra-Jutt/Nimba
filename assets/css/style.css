@@ -1,0 +1,259 @@
+/* ---------- home slider start ---------- */
+
+.welcome-heading {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--orange);
+    margin-bottom: 30px;
+    font-family: var(--font-secondary);
+}
+
+.home-slider-heading {
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 101px;
+    color: var(--white);
+    margin-bottom: 25px;
+    font-family: var(--font-primary);
+}
+
+.home-slider-para {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--white);
+    margin-bottom: 10px;
+    font-family: var(--font-secondary);
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.home-slider-img1 {
+    width: 100%;
+    height: 461px;
+    /* rotate: 5deg; */
+}
+
+.home-slider-img2 {
+    width: 100%;
+    height: 398px;
+    left: -65px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.slider-counter {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--white);
+}
+
+.btn.btn-prev {
+    padding: 0;
+}
+
+.btn.btn-forward {
+    padding: 0;
+}
+
+/* .slider-img-wrapper {
+    justify-content: end;
+   
+} */
+
+/* .slider-img2 {
+    position: absolute;
+    left: 250px;
+    top: 55px;
+} */
+
+/* ---------- home slider end ---------- */
+/* ---------- section fire start ---------- */
+
+.fire-para {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 52px;
+    color: var(--green);
+    font-family: var(--font-primary);
+}
+
+.mb-14 {
+    margin-bottom: 14px;
+}
+
+/* ---------- section fire end ---------- */
+/* ---------- home cards start ---------- */
+.mb-18 {
+    margin-bottom: 18px;
+}
+
+.home-card-wrapper {
+    padding: 55px 25px 0 25px;
+
+}
+
+.pb-200 {
+    padding-bottom: 200px;
+
+}
+
+.home-card-img {
+    margin-bottom: 21px;
+    height: 70px;
+    width: 70px;
+}
+
+.minus-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--green);
+    margin-bottom: 35px;
+    font-family: var(--font-primary);
+}
+
+/* ---------- home cards end ---------- */
+/* ---------- section bg-orange start ---------- */
+
+.orange-wrapper {
+    margin-bottom: 66px;
+}
+
+/* ---------- section bg-orange start ---------- */
+
+.silver-bar-wrapper{
+    margin-bottom: 60px;
+}
+.orng-img {
+    width: 75%;
+}
+/* ---------- section bg-orange end ---------- */
+
+/* ---------- section gold-purities start ---------- */
+.purities-para-wrapper .gold-bar-heading{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gold-purities-img {
+    height: 126px;
+    width: 211px;
+}
+
+.gold-purities-flex {
+    border: 1px solid #F7F7F7;
+    padding: 40px 35px;
+    border-radius: 20px;
+}
+
+.gold-purities {
+    margin-bottom: 88px;
+
+}
+
+.purities-para-wrapper {
+    margin-left: 40px;
+}
+
+/* ---------- section gold-purities end ---------- */
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:768px) {
+
+    /* .slider-img1{
+        height: 265px;
+        width: 227px;
+    } */
+    /* .slider-img2 {
+        left: 50px;
+        top: 55px;
+        height: 229px;
+        width: 197px;
+    } */
+    .home-slider-heading {
+        font-size: 40px;
+        line-height: 53px;
+        margin-bottom: 15px;
+    }
+
+    .home-slider-para {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .mb-16-sm {
+        margin-bottom: 16px;
+
+    }
+
+    .fire-para {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 42px;
+    }
+
+    .minus-heading {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+
+    .about-sub-heading {
+        font-size: 36px;
+        margin-bottom: 26px;
+        line-height: 54px;
+    }
+    .silver-bar-wrapper{
+        margin-bottom: 26px;
+    }
+    .orange-wrapper {
+        margin-bottom: 55px;
+    }
+
+    .mb-sm-45 {
+        margin-bottom: 45px;
+    }
+
+    
+
+    /* ---------- section gold-purities start ---------- */
+    .purities-para-wrapper .gold-bar-heading{
+        margin-top: 30px;
+        margin-bottom: 9px;
+    }
+    .gold-purities {
+        margin-bottom: 35px;
+
+    }
+    .gold-purities-flex {
+        border: none;
+        padding: 0;
+    }
+    .mb-sm-9 {
+        margin-bottom: 9px;
+    }
+
+    .purities-para-wrapper {
+        margin-left: 0;
+    }
+
+    .slider-wrapper {
+        margin-bottom: 31px;
+    }
+
+    /* ---------- section gold-purities end ---------- */
+}
