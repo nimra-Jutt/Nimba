@@ -211,6 +211,7 @@ a:hover {
 
 .navbar-brand {
     margin-right: 3rem;
+
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -321,6 +322,7 @@ a:hover {
 .footer-nav {
     border-top: 1px solid #F5F5F5;
     padding-top: 31px;
+    margin-top: 30px;
 }
 
 .footer-nav-child {
@@ -522,8 +524,13 @@ a:hover {
 }
 
 @media only screen and (max-width:1024px) {
+
     .nav-header {
-        padding: 15px;
+        padding: 10px 15px;
+    }
+
+    .nav-link {
+        margin: 5px 0;
     }
 
     .nav-list {
